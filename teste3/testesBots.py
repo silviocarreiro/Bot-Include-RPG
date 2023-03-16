@@ -171,7 +171,7 @@ def loc_enigma2(mensagem):
     #print("chega aqui 2")
     if bloco_910.contains(loc_user):
         #print("chega aqui 3")
-        bot.send_message(mensagem.chat.id, "Párabens, você encontrou o local correto. Agora, dirija-se ao LEC para um petiano lhe guiar no próximo desafio.")
+        bot.send_message(mensagem.chat.id, "Párabens, você encontrou o local correto. Agora, dirija-se ao LEC ou a sala do PET para um petiano lhe guiar no próximo desafio.")
         #print("chega aqui 4")
         print(f"Usuário: {mensagem.from_user.first_name}: localização correta")
     else:
