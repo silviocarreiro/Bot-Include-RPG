@@ -164,7 +164,7 @@ def enigma2(mensagem):
 def loc_enigma2(mensagem):
     print(f"latitude: {mensagem.location.latitude} \nlongitude: {mensagem.location.longitude}")
     #print(mensagem)
-    bloco_910 = Polygon([(-3.745898438499496, -38.5744853446593), (-3.745708408491267, -38.573944879578114), (-3.746262439526792, -38.57430965998031), (-3.7461098802911312, -38.57383893232895)])
+    bloco_910 = Polygon([(-3.7458497035315017, -38.57454626226563), (-3.745721232537398, -38.573905214375), (-3.7462618811769697, -38.57437191869705), (-3.7461334102433597, -38.57381670148634)])
     #print("chega aqui 1")
     loc_user = Point(mensagem.location.latitude, mensagem.location.longitude)
     #loc_user = Point(-3.745949295397726, -38.57425736501989)
